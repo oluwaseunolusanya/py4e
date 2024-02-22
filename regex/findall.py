@@ -18,5 +18,5 @@ import re
 #Fine-tuning String Extraction
 imsg = "From oolusanya@email.com Thu Feb 22 18:34 2024"
 # omsg = re.findall("^From \S+@\S+", imsg)
-omsg = re.findall("^From (\S+@\S+)", imsg)  #Demonstrating parentheses used to identify beginning and end of extraction.
+omsg = re.findall("^From (\S+@\S+)", imsg)  #Demonstrating parentheses used to specify beginning and end of extraction.
 print(omsg)
